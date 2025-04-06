@@ -22,8 +22,6 @@ There is a pthread_t array that contains all of the threads for the program.
 
 ## Functions
 
-_[This is a tree of functions and their short descriptions]_
-
 * `main()`
   * `pthread_create()`: Creates the threads for the program
   * `pthread_join()`: Waits for the threads to finish
