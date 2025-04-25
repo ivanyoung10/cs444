@@ -1,0 +1,274 @@
+Brest --> Nice
+--------------------------------
+BFS
+path:['brest', 'rennes', 'caen', 'paris', 'nantes', 'calais', 'nancy', 'dijon', 'limoges', 'bordeaux', 'strasbourg', 'lyon', 'toulouse', 'grenoble', 'avignon', 'montpellier', 'marseille', 'nice']
+cost:0
+nodes explored:18
+nodes expanded:17
+nodes maintained:1
+DLS
+path:[('brest', 0), ('rennes', 1), ('nantes', 2), ('rennes', 3), ('nantes', 4), ('rennes', 5), ('nantes', 6), ('rennes', 7), ('bordeaux', 7), ('limoges', 7), ('brest', 6), ('paris', 6), ('caen', 7), ('dijon', 7), ('nancy', 7), ('calais', 7), ('caen', 6), ('paris', 7), ('bordeaux', 5), ('toulouse', 6), ('montpellier', 7), ('limoges', 6), ('nantes', 7), ('toulouse', 7), ('lyon', 7), ('limoges', 5), ('bordeaux', 6), ('lyon', 6), ('avignon', 7), ('grenoble', 7), ('brest', 4), ('paris', 4), ('caen', 5), ('rennes', 6), ('brest', 7), ('calais', 6), ('dijon', 5), ('nancy', 6), ('strasbourg', 7), ('strasbourg', 6), ('nancy', 5), ('dijon', 6), ('calais', 5), ('caen', 4), ('paris', 5), ('bordeaux', 3), ('toulouse', 4), ('montpellier', 5), ('avignon', 6), ('marseille', 7), ('limoges', 4), ('nantes', 5), ('toulouse', 5), ('montpellier', 6), ('lyon', 5), ('grenoble', 6), ('limoges', 3), ('bordeaux', 4), ('lyon', 4), ('avignon', 5), ('marseille', 6), 'nice']
+cost:0
+nodes explored:147
+nodes expanded:151
+nodes maintained:0
+
+UCS
+path:['brest', 'rennes', 'nantes', 'limoges', 'lyon', 'avignon', 'marseille', 'nice']
+cost:1616
+nodes explored:23
+nodes expanded:28
+nodes maintained:1
+
+A_STAR
+path:['brest', 'rennes', 'nantes', 'bordeaux', 'toulouse', 'montpellier', 'avignon', 'marseille', 'nice']
+cost:1589
+nodes explored:18
+nodes expanded:20
+nodes maintained:1
+
+
+Montpellier --> Calais
+--------------------------------
+BFS
+path:['montpellier', 'avignon', 'toulouse', 'grenoble', 'marseille', 'lyon', 'bordeaux', 'limoges', 'nice', 'dijon', 'nantes', 'paris', 'strasbourg', 'nancy', 'rennes', 'calais']
+cost:0
+nodes explored:16
+nodes expanded:17
+nodes maintained:1
+
+DLS
+path:[('montpellier', 0), ('toulouse', 1), ('limoges', 2), ('paris', 3), ('caen', 4), ('rennes', 4), ('limoges', 4), ('dijon', 4), ('nancy', 4), 'calais']
+cost:0
+nodes explored:10
+nodes expanded:16
+nodes maintained:0
+
+UCS
+path:['montpellier', 'avignon', 'lyon', 'dijon', 'nancy', 'calais']
+cost:1214
+nodes explored:10
+nodes expanded:14
+nodes maintained:1
+
+A_STAR
+path:['montpellier', 'avignon', 'lyon', 'dijon', 'paris', 'calais']
+cost:1131
+nodes explored:8
+nodes expanded:16
+nodes maintained:1
+
+
+Strasbourg --> Bordeaux
+--------------------------------
+BFS
+path:['strasbourg', 'dijon', 'nancy', 'lyon', 'paris', 'calais', 'grenoble', 'avignon', 'limoges', 'rennes', 'caen', 'marseille', 'montpellier', 'toulouse', 'bordeaux']
+cost:0
+nodes explored:15
+nodes expanded:17
+nodes maintained:1
+
+DLS
+path:[('strasbourg', 0), ('nancy', 1), ('calais', 2), ('caen', 3), ('rennes', 4), ('paris', 4), ('calais', 4), ('paris', 3), ('caen', 4), ('limoges', 4), ('dijon', 4), ('nancy', 4), ('nancy', 3), ('strasbourg', 4), ('paris', 2), ('rennes', 3), ('nantes', 4), ('brest', 4), ('limoges', 3), 'bordeaux']
+cost:0
+nodes explored:30
+nodes expanded:37
+nodes maintained:0
+
+UCS
+path:['strasbourg', 'dijon', 'lyon', 'limoges', 'bordeaux']
+cost:1160
+nodes explored:7
+nodes expanded:12
+nodes maintained:1
+
+A_STAR
+path:['strasbourg', 'nancy', 'paris', 'limoges', 'bordeaux']
+cost:1123
+nodes explored:12
+nodes expanded:18
+nodes maintained:1
+
+
+Paris --> Grenoble
+--------------------------------
+BFS
+path:['paris', 'calais', 'nancy', 'dijon', 'limoges', 'rennes', 'caen', 'strasbourg', 'lyon', 'toulouse', 'bordeaux', 'nantes', 'brest', 'grenoble']
+cost:0
+nodes explored:14
+nodes expanded:15
+nodes maintained:1
+
+DLS
+path:[('paris', 0), ('caen', 1), ('rennes', 2), ('nantes', 3), ('brest', 3), ('paris', 3), ('caen', 3), ('paris', 2), ('rennes', 3), ('limoges', 3), ('dijon', 3), ('nancy', 3), ('calais', 3), ('calais', 2), ('rennes', 1), ('nantes', 2), ('bordeaux', 3), ('brest', 2), ('caen', 2), ('limoges', 1), ('bordeaux', 2), ('toulouse', 3), ('toulouse', 2), ('montpellier', 3), ('lyon', 2), ('avignon', 3), 'grenoble']
+cost:0
+nodes explored:46
+nodes expanded:48
+nodes maintained:0
+
+UCS
+path:['paris', 'dijon', 'lyon', 'grenoble']
+cost:625
+nodes explored:9
+nodes expanded:15
+nodes maintained:1
+
+A_STAR
+path:['paris', 'dijon', 'lyon', 'grenoble']
+cost:625
+nodes explored:6
+nodes expanded:13
+nodes maintained:1
+
+
+Grenoble --> Paris
+--------------------------------
+BFS
+path:['grenoble', 'avignon', 'lyon', 'marseille', 'montpellier', 'limoges', 'dijon', 'nice', 'toulouse', 'bordeaux', 'nantes', 'paris']
+cost:0
+nodes explored:12
+nodes expanded:14
+nodes maintained:1
+
+DLS
+path:[('grenoble', 0), ('lyon', 1), ('dijon', 2), ('nancy', 3), 'paris']
+cost:0
+nodes explored:5
+nodes expanded:10
+nodes maintained:0
+
+UCS
+path:['grenoble', 'lyon', 'dijon', 'paris']
+cost:621
+nodes explored:14
+nodes expanded:18
+nodes maintained:1
+
+A_STAR
+path:['grenoble', 'lyon', 'dijon', 'paris']
+cost:621
+nodes explored:4
+nodes expanded:7
+nodes maintained:1
+
+
+Brest --> Grenoble--------------------------------BFS
+path:['brest', 'rennes', 'caen', 'paris', 'nantes', 'calais', 'nancy', 'dijon', 'limoges', 'bordeaux', 'strasbourg', 'lyon', 'toulouse', 'grenoble']
+cost:0
+nodes explored:14
+nodes expanded:15
+nodes maintained:1
+
+DLS
+path:[('brest', 0), ('rennes', 1), ('nantes', 2), ('rennes', 3), ('nantes', 4), ('rennes', 5), ('bordeaux', 5), ('limoges', 5), ('brest', 4), ('paris', 4), ('caen', 5), ('dijon', 5), ('nancy', 5), ('calais', 5), ('caen', 4), ('paris', 5), ('bordeaux', 3), ('toulouse', 4), ('montpellier', 5), ('limoges', 4), ('nantes', 5), ('toulouse', 5), ('lyon', 5), ('limoges', 3), ('bordeaux', 4), ('lyon', 4), ('avignon', 5), 'grenoble']
+cost:0
+nodes explored:46
+nodes expanded:48
+nodes maintained:0
+
+UCS
+path:['brest', 'rennes', 'caen', 'calais', 'nancy', 'dijon', 'lyon', 'grenoble']
+cost:1776
+nodes explored:9
+nodes expanded:14
+nodes maintained:1
+
+A_STAR
+path:['brest', 'rennes', 'nantes', 'limoges', 'lyon', 'grenoble']
+cost:1197
+nodes explored:11
+nodes expanded:16
+nodes maintained:1
+
+
+Grenoble --> Brest--------------------------------BFS
+path:['grenoble', 'avignon', 'lyon', 'marseille', 'montpellier', 'limoges', 'dijon', 'nice', 'toulouse', 'bordeaux', 'nantes', 'paris', 'strasbourg', 'nancy', 'rennes', 'calais', 'caen', 'brest']
+cost:0
+nodes explored:18
+nodes expanded:17
+nodes maintained:1
+
+DLS
+path:[('grenoble', 0), ('lyon', 1), ('dijon', 2), ('nancy', 3), ('calais', 4), ('caen', 5), ('paris', 5), ('nancy', 5), ('paris', 4), ('rennes', 5), ('limoges', 5), ('dijon', 5), ('calais', 5), ('dijon', 4), ('lyon', 5), ('strasbourg', 5), ('strasbourg', 4), ('paris', 3), ('caen', 4), ('rennes', 4), ('nantes', 5), 'brest']
+cost:0
+nodes explored:31
+nodes expanded:42
+nodes maintained:0
+
+UCS
+path:['grenoble', 'lyon', 'limoges', 'nantes', 'rennes', 'brest']
+cost:1198
+nodes explored:18
+nodes expanded:21
+nodes maintained:1
+
+A_STAR
+path:['grenoble', 'lyon', 'limoges', 'nantes', 'rennes', 'brest']
+cost:1198
+nodes explored:9
+nodes expanded:16
+nodes maintained:1
+
+
+Nice --> Nantes--------------------------------BFS
+path:['nice', 'marseille', 'avignon', 'grenoble', 'montpellier', 'lyon', 'toulouse', 'limoges', 'dijon', 'bordeaux', 'nantes']
+cost:0
+nodes explored:11
+nodes expanded:13
+nodes maintained:1
+
+DLS
+path:[('nice', 0), ('marseille', 1), ('avignon', 2), ('lyon', 3), ('dijon', 4), ('nancy', 5), ('paris', 5), ('lyon', 5), ('strasbourg', 5), ('limoges', 4), 'nantes']
+cost:0
+nodes explored:12
+nodes expanded:20
+nodes maintained:0
+
+UCS
+path:['nice', 'marseille', 'avignon', 'lyon', 'limoges', 'nantes']
+cost:1262
+nodes explored:13
+nodes expanded:17
+nodes maintained:1
+
+A_STAR
+path:['nice', 'marseille', 'avignon', 'montpellier', 'toulouse', 'limoges', 'nantes']
+cost:1250
+nodes explored:10
+nodes expanded:14
+nodes maintained:1
+
+
+Caen --> Strasbourg
+--------------------------------BFS
+path:['caen', 'calais', 'paris', 'rennes', 'nancy', 'dijon', 'limoges', 'brest', 'nantes', 'strasbourg']
+cost:0
+nodes explored:10
+nodes expanded:12
+nodes maintained:1
+
+DLS
+path:[('caen', 0), ('rennes', 1), ('nantes', 2), ('rennes', 3), ('bordeaux', 3), ('limoges', 3), ('brest', 2), ('paris', 2), ('caen', 3), ('dijon', 3), ('nancy', 3), ('calais', 3), ('caen', 2), ('paris', 3), ('paris', 1), ('rennes', 2), ('nantes', 3), ('brest', 3), ('limoges', 2), ('toulouse', 3), ('lyon', 3), ('dijon', 2), 'strasbourg']
+cost:0
+nodes explored:37
+nodes expanded:39
+nodes maintained:0
+
+UCS
+path:['caen', 'paris', 'nancy', 'strasbourg']
+cost:759
+nodes explored:31
+nodes expanded:36
+nodes maintained:1
+
+A_STAR
+path:['caen', 'paris', 'nancy', 'strasbourg']
+cost:759
+nodes explored:5
+nodes expanded:9
+nodes maintained:1
+
+
+_____________________________________
+_____________________________________
+Average nodes explored for BST: 14.222222222222221Average nodes expanded for BST: 15.222222222222221Average nodes maintained for BST: 1.0
